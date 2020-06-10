@@ -4557,10 +4557,13 @@ h4.darkcolor {
 
 #partners-slider .logo-item {
     width: 160px;
-    height: 40px;
+    height: 80px;
     overflow: hidden;
 }
-
+.owl-carousel .owl-item img {
+    width: auto;
+    height: 60%
+}
 #partners-slider .logo-item,
 #partners-slider .logo-item>img {
     display: inline-block;
