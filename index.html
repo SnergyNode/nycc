@@ -18,582 +18,468 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-<!--PreLoader-->
-<div class="loader slow-load">
-    <div class="loader-inner">
-        <div class="cssload-loader"></div>
+    <!--PreLoader-->
+    <div class="loader slow-load">
+        <div class="loader-inner">
+            <div class="cssload-loader"></div>
+        </div>
     </div>
-</div>
-<!--PreLoader Ends-->
+    <!--PreLoader Ends-->
     <div class="text-center">
-            <strong class="font-bold text-dark">AGSMEIS Training Online </strong> | <a href="https://www.nyccng.org/agsmeisloan" style="color: blue"> Sign up </a>
-         now to enjoy 30% discount on CBN AGSMEIS Training online. <strike class="text-danger"> N10,000</strike> now N7,000 only.
+        <strong class="font-bold text-dark">AGSMEIS Training Online </strong> | <a href="https://www.nyccng.org/agsmeisloan" style="color: blue"> Sign up </a>
+        now to enjoy 30% discount on CBN AGSMEIS Training online. <strike class="text-danger"> N10,000</strike> now N7,000 only.
     </div>
-<!-- header -->
-<header class="site-header" id="header" style="position: relative">
-    <nav class="navbar navbar-expand-lg transparent-bg darkcolor static-nav" style="margin-top: 20px">
-        <div class="container">
-            <a class="navbar-brand" href="/index.html">
-                <img src="/images/nycc_logo.PNG" alt="logo" class="logo-default" style="width: 200px">
-                <img src="/images/nycc_logo.PNG" alt="logo" class="logo-scrolled">
+    <!-- header -->
+    <header class="site-header" id="header" style="position: relative">
+        <nav class="navbar navbar-expand-lg transparent-bg darkcolor static-nav" style="margin-top: 20px">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/images/nycc_logo.PNG" alt="logo" class="logo-default" style="width: 200px">
+                    <img src="/images/nycc_logo.PNG" alt="logo" class="logo-scrolled">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown position-relative">
+                            <a class="nav-link dropdown-toggle" href="about.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="about.html">About Us</a>
+                                <a class="dropdown-item" href="Corporate-Structure.html">Corporate Structure</a>
+                                <a class="dropdown-item" href="Programs.html">Programs</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Membership.html">Membership</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="News & Events.html">News & Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--side menu open button-->
+            <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+                <span class="bg-dark"></span> <span class="bg-dark"></span> <span class="bg-dark"></span>
             </a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+        </nav>
+        <!-- side menu -->
+        <div class="side-menu gradient-bg opacity-0">
+            <div class="overlay"></div>
+            <div class="inner-wrapper">
+                <span class="btn-close btn-close-no-padding" id="btn_sideNavClose"><i></i><i></i></span>
+                <nav class="side-nav w-100">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#sideNavPages1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Membership</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">News & Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="side-footer w-100">
+                    <ul class="social-icons-simple white top40">
+                        <li><a href="javascript:void(0)"><i class="fa fa-facebook-f"></i> </a> </li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i> </a> </li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i> </a> </li>
+                    </ul>
+                    <p class="whitecolor">© 2020 NYCC <small>Developed by <a style="color: orangered" href="http://synergynode.com">Synergy Node</a></small> </p>
+                </div>
+            </div>
+        </div>
+        <div id="close_side_menu" class="tooltip"></div>
+        <!-- End side menu -->
+    </header>
+    <!-- header -->
+    <!--Main Slider-->
+    <section id="main-banner-area" class="position-relative">
+        <div id="revo_main_wrapper" class="rev_slider_wrapper fullwidthbanner-container m-0 p-0 bg-light" data-alias="classic4export">
+            <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
+            <div id="rev_main" class="rev_slider fullwidthabanner" data-version="5.4.1">
+                <ul>
+                    <!-- SLIDE 1 -->
+                    <li data-index="rs-01" data-transition="fade" data-slotamount="default" data-easein="Power100.easeInOut" data-easeout="Power100.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="01">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/AGSMEIS-SLIDER.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--                        <h1 class="text-dark text-capitalize font-xlight text-center">Imagine what</h1>-->
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--                        <h1 class="text-dark text-capitalize font-bold text-center">10 Million Naira</h1>-->
+                        </div>
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1500" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--                        <h1 class="text-dark text-capitalize font-xlight text-center">can do to your business?</h1>-->
+                        </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="2000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--                        <h4 class="text-dark font-light text-center">Apply and be trained to access the CBN AGSMEIS Loan</h4>-->
+
+                        </div>
+
+                        <div class="tp-caption tp-resizeme z-index-15" data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']" data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','110']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="margin-top: 300px">
+                            <a class="transition-3 button btn-outline-dark button-padding pagescroll gray hover-light" style="border: solid green 1px" href="https://www.nyccng.org/agsmeisloan">Learn More</a>
+                        </div>
+
                     </li>
-                    
-                    <li class="nav-item dropdown position-relative">
-                        <a class="nav-link dropdown-toggle" href="about.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        About 
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="about.html">About Us</a>
-                            <a class="dropdown-item" href="Corporate-Structure.html">Corporate Structure</a>
-                            <a class="dropdown-item" href="Programs.html">Programs</a>
+                    <!-- SLIDE 2 -->
+                    <li data-index="rs-02" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="02">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/Digital-Asusu.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--                        <h3 class="text-dark text-capitalize font-xlight text-center">Digital . Transparent . Secure</h3>-->
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--                        <h1 class="text-dark text-capitalize font-bold text-center">Digital Asusu</h1>-->
+                        </div>
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1500" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--                        <h1 class="text-dark text-capitalize font-xlight text-center">Daily Savings Made Easy</h1>-->
+                        </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="2000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--                        <h4 class="text-dark font-light text-center">Digital Asusu is a daily savings scheme for members of the NYCC Cooperative Society Ltd.</h4>-->
+                        </div>
+
+                        <div class="tp-caption tp-resizeme z-index-15" data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']" data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','110']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="margin-top: 300px">
+                            <br>
+                            <a style="border: solid 1px #333" class="mt-5 transition-3 button btn-outline-dark button-padding pagescroll gray hover-light" href="https://digitalasusu.com/">Learn More</a>
+                        </div>
+
+                    </li>
+                    <!-- SLIDE 3 -->
+                    <li data-index="rs-03" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="03">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/Akowe.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--<h1 class="text-dark text-capitalize font-xlight text-center"></h1>-->
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--<h1 class="text-dark text-capitalize font-bold text-center">Aköwe</h1>-->
+                        </div>
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1500" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--<h1 class="text-dark text-capitalize font-xlight text-center">Bookkeeping Made Easy</h1>-->
+                        </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="2000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--<h4 class="text-dark font-light text-center">simplified cloud based bookkeeping solution.</h4>-->
+
+                        </div>
+
+                        <div class="tp-caption tp-resizeme z-index-15" data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']" data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','110']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="margin-top: 300px">
+                            <a style="border: solid 1px #333" class=" transition-3 button btn-outline-dark button-padding pagescroll gray hover-light" href="https://akowe.com/">Learn More</a>
+                        </div>
+
+                    </li>
+                    <!-- SLIDE 4 -->
+                    <li data-index="rs-04" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="04">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/E-Commerce.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--<h1 class="text-dark text-capitalize font-xlight text-center"> </h1>-->
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--<h1 class="text-dark text-capitalize font-bold text-center">Shop Naija</h1>
+                    </div>-->
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1500" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                                <!--<h1 class="text-dark text-capitalize font-xlight text-center">E-Commerce for MSMEs</h1>-->
+                            </div>
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="2000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                                <!--<h4 class="text-dark font-light text-center">The digital platform dedicated to made in Nigeria products and services.</h4>-->
+                            </div>
+
+                            <div class="tp-caption tp-resizeme z-index-15" data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']" data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','110']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="margin-top: 300px">
+                                <a class="transition-3 button btn-dark button-padding pagescroll gray hover-light" href="https://www.shopnaija.com/">Learn More</a>
+                            </div>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Membership.html">Membership</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="News & Events.html">News & Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                    <!-- SLIDE 5 -->
+                    <li data-index="rs-05" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="05">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/Financial-Literacy.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--<h3 class="text-dark text-capitalize font-xlight text-center">Digital . Transparent . Secure</h3>-->
+                        </div>
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--<h1 class="text-dark text-capitalize font-bold text-center">Financial Literacy</h1>-->
+                        </div>
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']" data-width="none" data-height="none" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="1500" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--<h1 class="text-dark text-capitalize font-xlight text-center">Daily Savings Made Easy</h1>-->
+                        </div>
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption tp-resizeme" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-textAlign="['center','center','center','center']" data-responsive_offset="on" data-start="2000" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
+                            <!--<h4 class="text-dark font-light text-center">Digital Asusu is a daily savings scheme for members of the NYCC Cooperative Society Ltd.</h4>-->
+                        </div>
+
+                        <div class="tp-caption tp-resizeme z-index-15" data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']" data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','110']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="margin-top: 300px">
+                            <a style="border: solid 1px #333" class="transition-3 button btn-outline-dark button-padding pagescroll gray hover-light" href="https://digitalasusu.com/">Learn More</a>
+                        </div>
+
                     </li>
                 </ul>
             </div>
         </div>
-        <!--side menu open button-->
-        <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
-            <span class="bg-dark"></span> <span class="bg-dark"></span> <span class="bg-dark"></span>
-        </a>
-    </nav>
-    <!-- side menu -->
-    <div class="side-menu gradient-bg opacity-0">
-        <div class="overlay"></div>
-        <div class="inner-wrapper">
-            <span class="btn-close btn-close-no-padding" id="btn_sideNavClose"><i></i><i></i></span>
-            <nav class="side-nav w-100">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#sideNavPages1">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Membership</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">News & Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="side-footer w-100">
-                <ul class="social-icons-simple white top40">
-                    <li><a href="javascript:void(0)"><i class="fa fa-facebook-f"></i> </a> </li>
-                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i> </a> </li>
-                    <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i> </a> </li>
-                </ul>
-                <p class="whitecolor">© 2020 NYCC <small>Developed by <a style="color: orangered" href="http://synergynode.com">Synergy Node</a></small> </p>
-            </div>
-        </div>
-    </div>
-    <div id="close_side_menu" class="tooltip"></div>
-    <!-- End side menu -->
-</header>
-<!-- header -->
-<!--Main Slider-->
-<section id="main-banner-area" class="position-relative">
-    <div id="revo_main_wrapper" class="rev_slider_wrapper fullwidthbanner-container m-0 p-0 bg-light" data-alias="classic4export">
-        <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
-        <div id="rev_main" class="rev_slider fullwidthabanner" data-version="5.4.1">
-            <ul>
-                <!-- SLIDE 1 -->
-                <li data-index="rs-01" data-transition="fade" data-slotamount="default" data-easein="Power100.easeInOut" data-easeout="Power100.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="01">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/AGSMEIS-SLIDER.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-<!--                        <h1 class="text-dark text-capitalize font-xlight text-center">Imagine what</h1>-->
+        <ul class="social-icons-simple revicon">
+            <li class="d-table"><a href="www.facebook.com" class="hover-light"><i class="fa fa-facebook-f"></i></a> </li>
+            <li class="d-table"><a href="javascript:void(0)" class="hover-light"><i class="fa fa-twitter"></i> </a> </li>
+            <li class="d-table"><a href="javascript:void(0)" class="hover-light"><i class="fa fa-linkedin-in"></i> </a> </li>
+            <li class="d-table"><a href="javascript:void(0)" class="hover-light"><i class="fa fa-instagram"></i> </a> </li>
+        </ul>
+    </section>
+    <!--Main Slider ends -->
+    <!--Some Services-->
+    <div class="container" style="margin-top: 150px">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="services-slider" class="owl-carousel services-slider-light">
+                    <div class="item">
+                        <div class="service-box" onclick="window.location = '/MEP/MEP.html'">
+                            <span class="bottom25"><i class="fa fa-building"></i></span>
+                            <h4 class="bottom10"><a href="/MEP/MEP.html">Micro Enterprise Park</a></h4>
+                            <p>Your business may not have the capacity to stand alone and survive. Why not join a cluster and enjoy the support that boosts your productivity in a shared environment?</p>
+                        </div>
                     </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-<!--                        <h1 class="text-dark text-capitalize font-bold text-center">10 Million Naira</h1>-->
+                    <div class="item">
+                        <div class="service-box" onclick="window.location = '/SEDIP/SEDIP.html'">
+                            <span class="bottom25"><i class="fa fa-building-o"></i></span>
+                            <h4 class="bottom10"><a href="SEDIP/SEDIP.html">Socio-Economic Development Intervention Programs </a></h4>
+                            <p>SEDIP leverages development policies to give you and your business the needed empowerment to thrive in your industry</p>
+                        </div>
                     </div>
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1500"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-<!--                        <h1 class="text-dark text-capitalize font-xlight text-center">can do to your business?</h1>-->
-                    </div>
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']"
-                         data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="2000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-<!--                        <h4 class="text-dark font-light text-center">Apply and be trained to access the CBN AGSMEIS Loan</h4>-->
-                        
-                    </div>
-                    
-                    <div class="tp-caption tp-resizeme z-index-15"
-                         data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','110']"
-                         data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                        <a class="transition-3 button btn-outline-dark button-padding pagescroll gray hover-light" style="border: solid green 1px" href="https://www.nyccng.org/agsmeisloan">Learn More</a>
-                    </div>
-                    
-                </li>
-                <!-- SLIDE 2 -->
-                <li data-index="rs-02" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="02">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/Digital-Asusu.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-<!--                        <h3 class="text-dark text-capitalize font-xlight text-center">Digital . Transparent . Secure</h3>-->
-                    </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-<!--                        <h1 class="text-dark text-capitalize font-bold text-center">Digital Asusu</h1>-->
-                    </div>
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1500"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-<!--                        <h1 class="text-dark text-capitalize font-xlight text-center">Daily Savings Made Easy</h1>-->
-                    </div>
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']"
-                         data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="2000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-<!--                        <h4 class="text-dark font-light text-center">Digital Asusu is a daily savings scheme for members of the NYCC Cooperative Society Ltd.</h4>-->
-                    </div>
-                    
-                    <div class="tp-caption tp-resizeme z-index-15"
-                         data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','110']"
-                         data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                         <br>
-                        <a style="border: solid 1px #333" class="mt-5 transition-3 button btn-outline-dark button-padding pagescroll gray hover-light" href="https://digitalasusu.com/">Learn More</a>
-                    </div>
-                    
-                </li>
-                <!-- SLIDE 3 -->
-                <li data-index="rs-03" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="03">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/Akowe.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h1 class="text-dark text-capitalize font-xlight text-center"></h1>-->
-                    </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h1 class="text-dark text-capitalize font-bold text-center">Aköwe</h1>-->
-                    </div>
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1500"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h1 class="text-dark text-capitalize font-xlight text-center">Bookkeeping Made Easy</h1>-->
-                    </div>
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']"
-                         data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="2000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h4 class="text-dark font-light text-center">simplified cloud based bookkeeping solution.</h4>-->
-                                            
-                    </div>
-                    
-                    <div class="tp-caption tp-resizeme z-index-15"
-                         data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','110']"
-                         data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                        <a style="border: solid 1px #333" class=" transition-3 button btn-outline-dark button-padding pagescroll gray hover-light" href="https://akowe.com/">Learn More</a>
-                    </div>
-                    
-                </li>
-                <!-- SLIDE 4 -->
-                <li data-index="rs-04" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="04">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/E-Commerce.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h1 class="text-dark text-capitalize font-xlight text-center"> </h1>-->
-                    </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h1 class="text-dark text-capitalize font-bold text-center">Shop Naija</h1>
-                    </div>-->
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1500"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h1 class="text-dark text-capitalize font-xlight text-center">E-Commerce for MSMEs</h1>-->
-                    </div>
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']"
-                         data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="2000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h4 class="text-dark font-light text-center">The digital platform dedicated to made in Nigeria products and services.</h4>-->
-                    </div>
-                    
-                    <div class="tp-caption tp-resizeme z-index-15"
-                         data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','110']"
-                         data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                        <a class="transition-3 button btn-dark button-padding pagescroll gray hover-light" href="https://www.shopnaija.com/">Learn More</a>
-                    </div>
-                    </div>
-                </li>
-                <!-- SLIDE 5 -->
-                <li data-index="rs-05" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="05">
-                    <!-- MAIN IMAGE -->
-                    <img src="images/Financial-Literacy.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                    <!-- LAYER NR. 1 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-110','-80']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h3 class="text-dark text-capitalize font-xlight text-center">Digital . Transparent . Secure</h3>-->
-                    </div>
-                    <!-- LAYER NR. 2 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-70','-70','-50','-20']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h1 class="text-dark text-capitalize font-bold text-center">Financial Literacy</h1>-->
-                    </div>
-                    <!-- LAYER NR. 3 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','10','40']"
-                         data-width="none" data-height="none" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="1500"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h1 class="text-dark text-capitalize font-xlight text-center">Daily Savings Made Easy</h1>-->
-                    </div>
-                    <!-- LAYER NR. 4 -->
-                    <div class="tp-caption tp-resizeme"
-                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['40','40','60','90']"
-                         data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                         data-textAlign="['center','center','center','center']"
-                         data-responsive_offset="on" data-start="2000"
-                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'>
-                        <!--<h4 class="text-dark font-light text-center">Digital Asusu is a daily savings scheme for members of the NYCC Cooperative Society Ltd.</h4>-->
-                    </div>
-                    
-                    <div class="tp-caption tp-resizeme z-index-15"
-                         data-x="['center','center','center','center']" data-hoffset="['10','10','10','10']"
-                         data-y="['middle','middle','middle','middle']" data-voffset="['110','110','110','110']"
-                         data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                        <a style="border: solid 1px #333" class="transition-3 button btn-outline-dark button-padding pagescroll gray hover-light" href="https://digitalasusu.com/">Learn More</a>
-                    </div>
-                    
-                </li>
-            </ul>
-        </div>
-    </div>
-    <ul class="social-icons-simple revicon">
-        <li class="d-table"><a href="www.facebook.com" class="hover-light"><i class="fa fa-facebook-f"></i></a> </li>
-        <li class="d-table"><a href="javascript:void(0)" class="hover-light"><i class="fa fa-twitter"></i> </a> </li>
-        <li class="d-table"><a href="javascript:void(0)" class="hover-light"><i class="fa fa-linkedin-in"></i> </a> </li>
-        <li class="d-table"><a href="javascript:void(0)" class="hover-light"><i class="fa fa-instagram"></i> </a> </li>
-    </ul>
-</section>
-<!--Main Slider ends -->
-<!--Some Services-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div id="services-slider" class="owl-carousel services-slider-light">
-                <div class="item">
-                    <div class="service-box" onclick="window.location = '/MEP/MEP.html'">
-                        <span class="bottom25"><i class="fa fa-building"></i></span>
-                        <h4 class="bottom10"><a href="/MEP/MEP.html">Micro Enterprise Park</a></h4>
-                        <p>Your business may not have the capacity to stand alone and survive. Why not join a cluster and enjoy the support that boosts your productivity in a shared environment?</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="service-box" onclick="window.location = '/SEDIP/SEDIP.html'">
-                        <span class="bottom25"><i class="fa fa-building-o"></i></span>
-                        <h4 class="bottom10"><a href="SEDIP/SEDIP.html">Socio-Economic Development Intervention Programs </a></h4>
-                        <p>SEDIP leverages development policies to give you and your business the needed empowerment to thrive in your industry</p>
-                    </div>
-                </div>
-                
-                <div class="item">
-                    <div class="service-box" onclick="window.location = '/BDS/BDS.html'" >
-                        <span class="bottom25"><i class="fa fa-building-o"></i></span>
-                        <h4 class="bottom10"><a href="/BDS/BDS.html">Business Development Service</a></h4>
-                        <p>We have developed business support tools to handhold your enterprise to profitability and sustainable growth</p>
-                        
+
+                    <div class="item">
+                        <div class="service-box" onclick="window.location = '/BDS/BDS.html'">
+                            <span class="bottom25"><i class="fa fa-building-o"></i></span>
+                            <h4 class="bottom10"><a href="/BDS/BDS.html">Business Development Service</a></h4>
+                            <p>We have developed business support tools to handhold your enterprise to profitability and sustainable growth</p>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!--Some Services ends-->
-<!--Some Feature -->
-<section id="our-feature" class="single-feature padding_bottom padding_top_half mt-n4">
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-lg-6 col-md-7 col-sm-7 text-sm-left text-center wow fadeInLeft" data-wow-delay="300ms">
-                <div class="heading-title mb-4">
-                    <h4 class="darkcolor font-normal bottom30  lead"><span class="defaultcolor">Welcome </span>Message from the Founding President </h4>
-                </div>
-                
-                <p class="font-italic">“Be the change you want to see in the World”</p><span>-Mahatma Ghandi</span> <br><br>
-                <p class="text-justify">Life is driven by purpose. I found my purpose and fulfilment in working with young people. And for young people.</p>
+    <!--Some Services ends-->
+    <!--Some Feature -->
+    <section id="our-feature" class="single-feature padding_bottom padding_top_half mt-n4">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 col-md-7 col-sm-7 text-sm-left text-center wow fadeInLeft" data-wow-delay="300ms">
+                    <div class="heading-title mb-4">
+                        <h4 class="darkcolor font-normal bottom30  lead"><span class="defaultcolor">Welcome </span>Message from the Founding President </h4>
+                    </div>
 
-                <p class="text-justify">Young people are critical assets for socio-economic development and represent the hope of the Nation only to the extent to which their demographic advantages are deliberately harnessed, positively engaged and channeled toward productive contribution to Nation building.</p>
-                
-                
-                <div class="more_info" style="display: none">
-                    <p class="text-justify">I am inspired by the potentials of young people which find expressions in their raw energies, creative ingenuity, and innovative inclinations. This stimulates in me a deep desire to assist in nurturing them to unleash their capabilities productively.</p>
-                    
+                    <p class="font-italic">“Be the change you want to see in the World”</p><span>-Mahatma Ghandi</span> <br><br>
+                    <p class="text-justify">Life is driven by purpose. I found my purpose and fulfilment in working with young people. And for young people.</p>
 
-                    <p class="text-justify">It is clear young people are faced with two critical challenges bordering on social and economic deprivations. I am commitment to continuously identify these gaps and drive outcome-oriented intervention programmes that can help address them sustainably.</p>
+                    <p class="text-justify">Young people are critical assets for socio-economic development and represent the hope of the Nation only to the extent to which their demographic advantages are deliberately harnessed, positively engaged and channeled toward productive contribution to Nation building.</p>
 
-                    <p class="text-justify">It is my inalienable affiliation with young people that has led me to establish the Nigerian Youth Chamber of Commerce. This NYCC fosters synergies, and partnerships with strategic stakeholders to facilitate collective work for economic empowerment of young people through functional entrepreneurship and leadership.</p>
 
-                    <p class="text-justify">I am convinced that my modest contribution to working with young people will help build the future that we all desire. Wont you rather join us? Together, we can change the world. 
+                    <div class="more_info" style="display: none">
+                        <p class="text-justify">I am inspired by the potentials of young people which find expressions in their raw energies, creative ingenuity, and innovative inclinations. This stimulates in me a deep desire to assist in nurturing them to unleash their capabilities productively.</p>
+
+
+                        <p class="text-justify">It is clear young people are faced with two critical challenges bordering on social and economic deprivations. I am commitment to continuously identify these gaps and drive outcome-oriented intervention programmes that can help address them sustainably.</p>
+
+                        <p class="text-justify">It is my inalienable affiliation with young people that has led me to establish the Nigerian Youth Chamber of Commerce. This NYCC fosters synergies, and partnerships with strategic stakeholders to facilitate collective work for economic empowerment of young people through functional entrepreneurship and leadership.</p>
+
+                        <p class="text-justify">I am convinced that my modest contribution to working with young people will help build the future that we all desire. Wont you rather join us? Together, we can change the world.
                         </p>
-                    <p class="lead"> Amb. (Dr.) Peter Ayim, GGA, CBA<br>
-                        President, NYCC
+                        <p class="lead"> Amb. (Dr.) Peter Ayim, GGA, CBA<br>
+                            President, NYCC
                         </p>
 
+                    </div>
+
+                    <a href="javascript:void(0)" onClick="toggle_view()" class="button btn_toggle btnsecondary gradient-btn mb-sm-0 mb-4">Continue Reading</a>
+
                 </div>
-                
-                <a href="javascript:void(0)" onClick="toggle_view()" class="button btn_toggle btnsecondary gradient-btn mb-sm-0 mb-4">Continue Reading</a>
-                
-            </div>
-            <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
-                <div class="image"><img alt="SEO" src="images/awesome-feature.png"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Some Feature ends-->
-<!-- WOrk Process-->
-<section id="our-process" class="padding bgdark" style="background-image: url('/images/Become-a-Member-Today.png');" >
-    <div class="container" >
-        <div class="row">
-            <div class="col-md-12 col-sm-12 text-center">
-                <div class="heading-title whitecolor wow fadeInUp" data-wow-delay="300ms">
-                    
-                    <h2 class="font-normal">How to Become a Member </h2>
-                    <span>In three simple steps, you can join the chamber and leapfrog the journey towards success for your business.</span>
+                <div class="col-lg-5 offset-lg-1 col-md-5 col-sm-5 wow fadeInRight" data-wow-delay="300ms">
+                    <div class="image"><img alt="SEO" src="images/awesome-feature.png"></div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <ul class="process-wrapp">
-                <li class="whitecolor wow fadeIn" data-wow-delay="300ms">
-                    <span class="pro-step bottom20">01</span>
-                    
-                    <p class="mt-n2 mt-sm-0">Fill the membership application form.</p>
-                </li>
-                <li class="whitecolor wow fadeIn" data-wow-delay="400ms">
-                    <span class="pro-step bottom20">02</span>
-                    
-                    <p class="mt-n2 mt-sm-0">Pay a non-refundable membership subscription fee.</p>
-                </li>
-                <li class="whitecolor wow fadeIn" data-wow-delay="500ms">
-                    <span class="pro-step bottom20">03</span>
-                    
-                    <p class="mt-n2 mt-sm-0">Pay annual subscription fee of.</p>
-                </li>
-                
-                <li class="whitecolor wow fadeIn" data-wow-delay="700ms">
-                    <a href="/register.html" class="pro-step bottom20" style="width: 170px; background: #26313c">JOIN NOW</a>
-                    
-                </li>
-            </ul>
+    </section>
+    <!--Some Feature ends-->
+    <!-- WOrk Process-->
+    <section id="our-process" class="padding bgdark" style="background-image: url('/images/Become-a-Member-Today.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 text-center">
+                    <div class="heading-title whitecolor wow fadeInUp" data-wow-delay="300ms">
+
+                        <h2 class="font-normal">How to Become a Member </h2>
+                        <span>In three simple steps, you can join the chamber and leapfrog the journey towards success for your business.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="process-wrapp">
+                    <li class="whitecolor wow fadeIn" data-wow-delay="300ms">
+                        <span class="pro-step bottom20">01</span>
+
+                        <p class="mt-n2 mt-sm-0">Fill the membership application form.</p>
+                    </li>
+                    <li class="whitecolor wow fadeIn" data-wow-delay="400ms">
+                        <span class="pro-step bottom20">02</span>
+
+                        <p class="mt-n2 mt-sm-0">Pay a non-refundable membership subscription fee.</p>
+                    </li>
+                    <li class="whitecolor wow fadeIn" data-wow-delay="500ms">
+                        <span class="pro-step bottom20">03</span>
+
+                        <p class="mt-n2 mt-sm-0">Pay annual subscription fee of.</p>
+                    </li>
+
+                    <li class="whitecolor wow fadeIn" data-wow-delay="700ms">
+                        <a href="/register.html" class="pro-step bottom20" style="width: 170px; background: #26313c">JOIN NOW</a>
+
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</section>
-<!--WOrk Process ends-->
-  
-<!-- Partners-->
-<section id="our-partners" class="padding">
-    <div class="container">
-        <div class="row">
-           <div class="text-center" style="width:  100%">
-               <h2 class="heading bottom30 darkcolor font-light2 text-center"><span class="font-weight-light">Our </span> Partners
-                <span class="divider-center"></span>
-            </h2>
-           </div>
-            
-            <div class="col-md-12 col-sm-12">
-                <div id="partners-slider" class="owl-carousel">
-                    <div class="item">
-                        <div class="logo-item"> <img alt="" src="images/National-Board-for-Technical-Education-NBTE-1-1.jpg"></div>
+    </section>
+    <!--WOrk Process ends-->
+
+    <!-- Partners-->
+    <section id="our-partners" class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="text-center" style="width:  100%">
+                    <h2 class="heading bottom30 darkcolor font-light2 text-center"><span class="font-weight-light">Our </span> Partners
+                        <span class="divider-center"></span>
+                    </h2>
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <div id="partners-slider" class="owl-carousel">
+                        <div class="item">
+                            <div class="logo-item"> <img alt="" src="images/National-Board-for-Technical-Education-NBTE-1-1.jpg"></div>
+                        </div>
+                        <div class="item">
+                            <div class="logo-item"><img alt="" src="images/Central-Bank-of-Nigeria1.png"></div>
+                        </div>
+                        <div class="item">
+                            <div class="logo-item"><img alt="" src="images/nirsal-11.jpg"></div>
+                        </div>
+                        <div class="item">
+                            <div class="logo-item"><img alt="" src="images/NBTI1.jpg"></div>
+                        </div>
+                        <div class="item">
+                            <div class="logo-item"><img alt="" src="images/smedan_logo1.png"></div>
+                        </div>
+                        <div class="item">
+                            <div class="logo-item"><img alt="" src="images/UNIDO.png"></div>
+                        </div>
+                        <div class="item">
+                            <div class="logo-item"><img alt="" src="images/FRED-080317-AGR-2-1.jpg"></div>
+                        </div>
+
                     </div>
-                    <div class="item">
-                        <div class="logo-item"><img alt="" src="images/Central-Bank-of-Nigeria1.png"></div>
-                    </div>
-                    <div class="item">
-                        <div class="logo-item"><img alt="" src="images/nirsal-11.jpg"></div>
-                    </div>
-                    <div class="item">
-                        <div class="logo-item"><img alt="" src="images/NBTI1.jpg"></div>
-                    </div>
-                    <div class="item">
-                        <div class="logo-item"><img alt="" src="images/smedan_logo1.png"></div>
-                    </div>
-                    <div class="item">
-                        <div class="logo-item"><img alt="" src="images/UNIDO.png"></div>
-                    </div>
-                    <div class="item">
-                        <div class="logo-item"><img alt="" src="images/FRED-080317-AGR-2-1.jpg"></div>
-                    </div>
-                    
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- Partners ends-->
-    
-    
-<!-- Blog-->
+    </section>
+    <!-- Partners ends-->
+
+
+    <!-- Blog-->
     <section id="our-blog" class="bglight padding">
-    <div class="container">
-        
-        <h2 class="heading bottom30 darkcolor font-light2 text-center" ><span class="font-weight-light">Recent </span> News
+        <div class="container">
+
+            <h2 class="heading bottom30 darkcolor font-light2 text-center"><span class="font-weight-light">Recent </span> News
                 <span class="divider-center"></span>
             </h2>
-       
-        <div id="blog-measonry" class="cbp">
-                        
-            <div class="cbp-item">
-                <div class="news_item shadow text-center text-md-left">
-                    <a class="image" href="/blog/NYCC%20Graduates%20the%20First%20Batch%20of%20Trainees%20from%20The%20AGSMEIS%20Entrepreneurship%20Training.html">
-                        <img src="images/7th%20March%202020%20Graduation.jpg" alt="Latest News" class="img-responsive">
-                    </a>
-                    <div class="news_desc">
-                        <h4 class="text-capitalize font-normal darkcolor"><a href="NYCC%20Graduates%20the%20First%20Batch%20of%20Trainees%20from%20The%20AGSMEIS%20Entrepreneurship%20Training.html">NYCC Graduates the First Batch of Trainees from the AGSMEIS Entrepreneurship Training.</a></h4>
-                        <ul class="meta-tags top20 bottom20">
-                            <li><i class="fa fa-calendar-alt"></i>Mar 07</li>
-                            <li> <i class="fa fa-user"></i> Admin </li>
-                            
-                        </ul>
-                        <p class="bottom35">After a 5 days intensive Entrepreneurship Training, the trainees were finally graduated with great joy mixed with sadness.</p>
-                        <a href="NYCC%20Graduates%20the%20First%20Batch%20of%20Trainees%20from%20The%20AGSMEIS%20Entrepreneurship%20Training.html" class="button gradient-btn">Read more</a>
+
+            <div id="blog-measonry" class="cbp">
+
+                <div class="cbp-item">
+                    <div class="news_item shadow text-center text-md-left">
+                        <a class="image" href="/blog/NYCC%20Graduates%20the%20First%20Batch%20of%20Trainees%20from%20The%20AGSMEIS%20Entrepreneurship%20Training.html">
+                            <img src="images/7th%20March%202020%20Graduation.jpg" alt="Latest News" class="img-responsive">
+                        </a>
+                        <div class="news_desc">
+                            <h4 class="text-capitalize font-normal darkcolor"><a href="NYCC%20Graduates%20the%20First%20Batch%20of%20Trainees%20from%20The%20AGSMEIS%20Entrepreneurship%20Training.html">NYCC Graduates the First Batch of Trainees from the AGSMEIS Entrepreneurship Training.</a></h4>
+                            <ul class="meta-tags top20 bottom20">
+                                <li><i class="fa fa-calendar-alt"></i>Mar 07</li>
+                                <li> <i class="fa fa-user"></i> Admin </li>
+
+                            </ul>
+                            <p class="bottom35">After a 5 days intensive Entrepreneurship Training, the trainees were finally graduated with great joy mixed with sadness.</p>
+                            <a href="NYCC%20Graduates%20the%20First%20Batch%20of%20Trainees%20from%20The%20AGSMEIS%20Entrepreneurship%20Training.html" class="button gradient-btn">Read more</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="cbp-item">
-                <div class="news_item shadow text-center text-md-left">
-                    <a class="image" href="/blog/A%20Story%20That%20Changed%20My%20Perspective%20of%20Money.html">
-                        <img src="images/Abba.jpg" alt="Latest News" class="img-responsive">
-                    </a>
-                    <div class="news_desc">
-                        <h4 class="text-capitalize font-normal darkcolor"><a href="/blog/A%20Story%20That%20Changed%20My%20Perspective%20of%20Money.html">A Story That Changed My Perspective of Money</a></h4>
-                        <ul class="meta-tags top20 bottom20">
-                            <li><i class="fa fa-calendar-alt"></i>Jun 07</li>
-                            <li> <i class="fa fa-user"></i> Admin </li>
-                            
-                        </ul>
-                        <p class="bottom35">My friend Abba is a hardworking printer who was working and saving money with three local savings operators to buy a printing machine. </p>
-                        <a href="/blog/A%20Story%20That%20Changed%20My%20Perspective%20of%20Money.html" class="button gradient-btn">Read more</a>
+                <div class="cbp-item">
+                    <div class="news_item shadow text-center text-md-left">
+                        <a class="image" href="/blog/A%20Story%20That%20Changed%20My%20Perspective%20of%20Money.html">
+                            <img src="images/Abba.jpg" alt="Latest News" class="img-responsive">
+                        </a>
+                        <div class="news_desc">
+                            <h4 class="text-capitalize font-normal darkcolor"><a href="/blog/A%20Story%20That%20Changed%20My%20Perspective%20of%20Money.html">A Story That Changed My Perspective of Money</a></h4>
+                            <ul class="meta-tags top20 bottom20">
+                                <li><i class="fa fa-calendar-alt"></i>Jun 07</li>
+                                <li> <i class="fa fa-user"></i> Admin </li>
+
+                            </ul>
+                            <p class="bottom35">My friend Abba is a hardworking printer who was working and saving money with three local savings operators to buy a printing machine. </p>
+                            <a href="/blog/A%20Story%20That%20Changed%20My%20Perspective%20of%20Money.html" class="button gradient-btn">Read more</a>
+                        </div>
                     </div>
                 </div>
+<<<<<<< HEAD
+
+                <div class="cbp-item">
+                    <div class="news_item shadow text-center text-md-left">
+                        <a class="image" href="/blog/The%20Leather%20Suit%20Case.html">
+                            <img src="/images/The-Leather-Suit-Case.jpg" alt="Latest News" class="img-responsive">
+                        </a>
+                        <div class="news_desc">
+                            <h4 class="text-capitalize font-normal darkcolor"><a href="/blog/The%20Leather%20Suit%20Case.html">
+                                    The Leather Suit Case.</a></h4>
+                            <ul class="meta-tags top20 bottom20">
+                                <li><i class="fa fa-calendar-alt"></i>Mar 22</li>
+                                <li> <i class="fa fa-user"></i> Admin </li>
+
+                            </ul>
+                            <p class="bottom35">"Sir, these are the products of my business." Aisha said as she walked up to me after the Training in Abuja"</p>
+                            <a href="/blog/The%20Leather%20Suit%20Case.html" class="button gradient-btn">Read more</a>
+                        </div>
+=======
             </div>
             
             <div class="cbp-item">
@@ -611,189 +497,189 @@
                         </ul>
                         <p class="bottom35">"Sir, these are the products of my business." Aisha said as she walked up to me after the Training in Abuja"</p>
                         <a href="/blog/The%20Leather%20Suit%20Case.html" class="button gradient-btn">Read more</a>
+>>>>>>> merge
                     </div>
                 </div>
             </div>
+
         </div>
-        
-    </div>
-</section>
-<!-- Blog ends-->
+    </section>
+    <!-- Blog ends-->
 
 
 
 
-<!-- Contact US -->
-<section id="stayconnect" class="bglight position-relative">
-    <div class="container">
-        <div class="contactus-wrapp">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="heading-title wow fadeInUp text-center text-md-left" data-wow-delay="300ms">
-                        <h3 class="darkcolor bottom20">Stay Connected</h3>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-12">
-                    <form class="getin_form wow fadeInUp" data-wow-delay="400ms" onsubmit="return false;">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12" id="result"></div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="form-group">
-                                    <label for="userName" class="d-none"></label>
-                                    <input class="form-control" type="text" placeholder="Name" required id="userName" name="userName">
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="form-group">
-                                    <label for="companyName" class="d-none"></label>
-                                    <input class="form-control" type="tel" placeholder="Company"  id="companyName" name="companyName">
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="form-group">
-                                    <label for="email" class="d-none"></label>
-                                    <input class="form-control" type="email" placeholder="Email" required id="email" name="email">
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <button type="submit" class="button gradient-btn w-100" id="submit_btn">subscribe</button>
-                            </div>
+    <!-- Contact US -->
+    <section id="stayconnect" class="bglight position-relative">
+        <div class="container">
+            <div class="contactus-wrapp">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="heading-title wow fadeInUp text-center text-md-left" data-wow-delay="300ms">
+                            <h3 class="darkcolor bottom20">Stay Connected</h3>
                         </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Contact US ends -->
-<!--Site Footer Here-->
-<footer id="site-footer" class="bg-light-dark padding_top">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="footer_panel padding_bottom_half bottom20">
-                    <a href="/index.html" class="footer_logo bottom25"><img src="images/nycc_logo2.png" alt="MegaOne" style="width: 200px"></a>
-                    <p class="whitecolor bottom25">The Nigerian Youth Chamber of Commerce will help you to grow your business and become more profitable.</p>
-                    <div class="d-table w-100 address-item whitecolor bottom25">
-                        <span class="d-table-cell align-middle"><i class="fa fa-mobile"></i></span>
-                        <p class="d-table-cell align-middle bottom0">
-                            +234 908 898 2102
-                       <br> +234 908 898 2103
-                            <a class="d-block" href="mailto:info@nyccng.org">info@nyccng.org</a>
-                        </p>
                     </div>
-                    <ul class="social-icons white wow fadeInUp" data-wow-delay="300ms">
-                        <li><a href="http://facebook.com/nyccng" class="facebook"><i class="fa fa-facebook-f"></i> </a> </li>
-                        <li><a href="javascript:void(0)" class="twitter"><i class="fa fa-twitter"></i> </a> </li>
-                        <li><a href="javascript:void(0)" class="linkedin"><i class="fa fa-linkedin-in"></i> </a> </li>
-                        <li><a href="javascript:void(0)" class="insta"><i class="fa fa-instagram"></i> </a> </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="footer_panel padding_bottom_half bottom20">
-                    <h3 class="whitecolor bottom10">Business Development Services</h3>
-                    <ul class="latest_news whitecolor">
-                        <li> <a href="/BDS/Entrepreneurship-Training.html">Entrepreneurship Training</a></li>
-                        <li> <a href="/BDS/Access-to-Finance.html">Access to Finance</a></li>
-                        <li> <a href="/BDS/Financial-Literacy.html">Financial Literacy</a></li>
-                        <li> <a href="/BDS/Business-Advisory-Development.html">Business Advisory and Development Services</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="footer_panel padding_bottom_half bottom20">
-                    <h3 class="whitecolor bottom10">Enterprise Solutions</h3>
-                    <ul class="latest_news whitecolor">
-                        <li> <a href="/BDS/Digital-Asusu.html">Digital Asusu</a></li>
-                        <li> <a href="/BDS/Ak%C3%B6we.html">Aköwe - Bookkeeping Made Easy </a></li>
-                        
-                        <li> <a href="/BDS/Shop-Naija.html">Shop Naija Now</a></li>
-                        <li> <a href="/BDS/Jobmannow.html">Jobmannow.com</a></li>
-                        <li> <a href="/BDS/Micro-Insurance.html">Micro Insurance</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="footer_panel padding_bottom_half bottom20">
-                    <h4 class="whitecolor bottom10">Socio-Economic Development Intervention Programmes.</h4>
-                    <ul class="latest_news whitecolor">
-                        <li> <a href="/SEDIP/NYAEDP.html">NYAEDP</a></li>
-                        <li> <a href="/SEDIP/KOSEDIP.html">KOSEDIP</a></li>
-                        <li> <a href="/SEDIP/NESDIP.html">NESDIP</a></li>
-                        <li> <a href="/SEDIP/NEDEP4TIN.html">NEDEP4TIN & NEDEP4CORPERS</a></li>
-                        <li> <a href="/SEDIP/MAP.html">MAP</a></li>
-                        <li> <a href="/SEDIP/NVSDP.html">NVSDP</a></li>
-                    </ul>
+                    <div class="col-md-12 col-sm-12">
+                        <form class="getin_form wow fadeInUp" data-wow-delay="400ms" onsubmit="return false;">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12" id="result"></div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="userName" class="d-none"></label>
+                                        <input class="form-control" type="text" placeholder="Name" required id="userName" name="userName">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="companyName" class="d-none"></label>
+                                        <input class="form-control" type="tel" placeholder="Company" id="companyName" name="companyName">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="email" class="d-none"></label>
+                                        <input class="form-control" type="email" placeholder="Email" required id="email" name="email">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <button type="submit" class="button gradient-btn w-100" id="submit_btn">subscribe</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
-<!--Footer ends-->
+    </section>
+    <!-- Contact US ends -->
+    <!--Site Footer Here-->
+    <footer id="site-footer" class="bg-light-dark padding_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer_panel padding_bottom_half bottom20">
+                        <a href="/index.html" class="footer_logo bottom25"><img src="images/nycc_logo2.png" alt="MegaOne" style="width: 200px"></a>
+                        <p class="whitecolor bottom25">The Nigerian Youth Chamber of Commerce will help you to grow your business and become more profitable.</p>
+                        <div class="d-table w-100 address-item whitecolor bottom25">
+                            <span class="d-table-cell align-middle"><i class="fa fa-mobile"></i></span>
+                            <p class="d-table-cell align-middle bottom0">
+                                +234 908 898 2102
+                                <br> +234 908 898 2103
+                                <a class="d-block" href="mailto:info@nyccng.org">info@nyccng.org</a>
+                            </p>
+                        </div>
+                        <ul class="social-icons white wow fadeInUp" data-wow-delay="300ms">
+                            <li><a href="http://facebook.com/nyccng" class="facebook"><i class="fa fa-facebook-f"></i> </a> </li>
+                            <li><a href="javascript:void(0)" class="twitter"><i class="fa fa-twitter"></i> </a> </li>
+                            <li><a href="javascript:void(0)" class="linkedin"><i class="fa fa-linkedin-in"></i> </a> </li>
+                            <li><a href="javascript:void(0)" class="insta"><i class="fa fa-instagram"></i> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer_panel padding_bottom_half bottom20">
+                        <h3 class="whitecolor bottom10">Business Development Services</h3>
+                        <ul class="latest_news whitecolor">
+                            <li> <a href="/BDS/Entrepreneurship-Training.html">Entrepreneurship Training</a></li>
+                            <li> <a href="/BDS/Access-to-Finance.html">Access to Finance</a></li>
+                            <li> <a href="/BDS/Financial-Literacy.html">Financial Literacy</a></li>
+                            <li> <a href="/BDS/Business-Advisory-Development.html">Business Advisory and Development Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer_panel padding_bottom_half bottom20">
+                        <h3 class="whitecolor bottom10">Enterprise Solutions</h3>
+                        <ul class="latest_news whitecolor">
+                            <li> <a href="/BDS/Digital-Asusu.html">Digital Asusu</a></li>
+                            <li> <a href="/BDS/Ak%C3%B6we.html">Aköwe - Bookkeeping Made Easy </a></li>
+
+                            <li> <a href="/BDS/Shop-Naija.html">Shop Naija Now</a></li>
+                            <li> <a href="/BDS/Jobmannow.html">Jobmannow.com</a></li>
+                            <li> <a href="/BDS/Micro-Insurance.html">Micro Insurance</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer_panel padding_bottom_half bottom20">
+                        <h4 class="whitecolor bottom10">Socio-Economic Development Intervention Programmes.</h4>
+                        <ul class="latest_news whitecolor">
+                            <li> <a href="/SEDIP/NYAEDP.html">NYAEDP</a></li>
+                            <li> <a href="/SEDIP/KOSEDIP.html">KOSEDIP</a></li>
+                            <li> <a href="/SEDIP/NESDIP.html">NESDIP</a></li>
+                            <li> <a href="/SEDIP/NEDEP4TIN.html">NEDEP4TIN & NEDEP4CORPERS</a></li>
+                            <li> <a href="/SEDIP/MAP.html">MAP</a></li>
+                            <li> <a href="/SEDIP/NVSDP.html">NVSDP</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer ends-->
     <div class="copyright">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center wow fadeIn animated" data-wow-delay="300ms">
-                <p class="m-0 py-3">Copyright © <span id="year1"></span> <a href="javascript:void(0)" class="hover-default"> The Nigerian Youth Chamber of Commerce</a>. All Rights Reserved.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center wow fadeIn animated" data-wow-delay="300ms">
+                    <p class="m-0 py-3">Copyright © <span id="year1"></span> <a href="javascript:void(0)" class="hover-default"> The Nigerian Youth Chamber of Commerce</a>. All Rights Reserved.</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-3.4.1.min.js"></script>
-<!--Bootstrap Core-->
-<script src="js/propper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<!--to view items on reach-->
-<script src="js/jquery.appear.js"></script>
-<!--Owl Slider-->
-<script src="js/owl.carousel.min.js"></script>
-<!--number counters-->
-<script src="js/jquery-countTo.js"></script>
-<!--Parallax Background-->
-<script src="js/parallaxie.js"></script>
-<!--Cubefolio Gallery-->
-<script src="js/jquery.cubeportfolio.min.js"></script>
-<!--Fancybox js-->
-<script src="js/jquery.fancybox.min.js"></script>
-<!--tooltip js-->
-<script src="js/tooltipster.min.js"></script>
-<!--wow js-->
-<script src="js/wow.js"></script>
-<!--Revolution SLider-->
-<script src="js/revolution/jquery.themepunch.tools.min.js"></script>
-<script src="js/revolution/jquery.themepunch.revolution.min.js"></script>
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
-<script src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
-<script src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
-<script src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
-<script src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
-<script src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
-<script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
-<!--custom functions and script-->
-<script src="js/functions.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!--Bootstrap Core-->
+    <script src="js/propper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--to view items on reach-->
+    <script src="js/jquery.appear.js"></script>
+    <!--Owl Slider-->
+    <script src="js/owl.carousel.min.js"></script>
+    <!--number counters-->
+    <script src="js/jquery-countTo.js"></script>
+    <!--Parallax Background-->
+    <script src="js/parallaxie.js"></script>
+    <!--Cubefolio Gallery-->
+    <script src="js/jquery.cubeportfolio.min.js"></script>
+    <!--Fancybox js-->
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!--tooltip js-->
+    <script src="js/tooltipster.min.js"></script>
+    <!--wow js-->
+    <script src="js/wow.js"></script>
+    <!--Revolution SLider-->
+    <script src="js/revolution/jquery.themepunch.tools.min.js"></script>
+    <script src="js/revolution/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+    <script src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
+    <script src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
+    <script src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
+    <!--custom functions and script-->
+    <script src="js/functions.js"></script>
 
     <script>
         let open = false;
-        function toggle_view(){
+
+        function toggle_view() {
             console.log('btn click');
-            
-            if(open){
-                
-               open = false;
-               $('.more_info').slideUp();
-               $('.btn_toggle').text('Continue Reading');
-           }else{
-               
-               open = true;
-               $('.more_info').slideDown();
-               $('.btn_toggle').text('Show Less');
-           }
+
+            if (open) {
+
+                open = false;
+                $('.more_info').slideUp();
+                $('.btn_toggle').text('Continue Reading');
+            } else {
+
+                open = true;
+                $('.more_info').slideDown();
+                $('.btn_toggle').text('Show Less');
+            }
         }
     </script>
-</body>
-</html>
+</body></html>
