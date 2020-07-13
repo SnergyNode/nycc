@@ -27,7 +27,7 @@
 }
 
 .bg-seetru {
-    background: rgba(117, 127, 81, 0.42)
+    background: rgba(91, 139, 44, 0.62)
 }
 
 
@@ -45,4 +45,7 @@
 
 .clickable {
     cursor: pointer
+}
+.bg-lemon{
+    background: #06bf06;
 }
